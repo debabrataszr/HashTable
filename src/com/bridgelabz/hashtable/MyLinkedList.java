@@ -20,11 +20,7 @@ public class MyLinkedList<K> {
         }
     }
 
-    public INode pop() {
-        INode temporaryNode = this.head;
-        this.head = this.head.getNext();
-        return temporaryNode;
-    }
+
 
     public INode search(K key) {
         if (this.head == null) {
