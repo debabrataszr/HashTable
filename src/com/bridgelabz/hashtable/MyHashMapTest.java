@@ -20,6 +20,8 @@ public class MyHashMapTest {
             int frequency = myLinkedHashMap.get(word);
             System.out.println("Frequency of " + word + " : " + frequency);
         }
-
+        System.out.println();
+        System.out.println("Avoidable removed successfully ");
+        myLinkedHashMap.remove("avoidable");
     }
 }
